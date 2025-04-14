@@ -32,8 +32,7 @@ parser.add_argument('--zero_shot', type=int, default=1, help='zero shot')
 # data loader
 parser.add_argument('--dataset1', type=str, default='shu',choices=['20k','credit','jop','shu'], help='dataset type')
 parser.add_argument('--dataset2', type=mystr, default="20k,credit,jop,shu", help='dataset type')
-parser.add_argument('--root_path', type=str, default=r'/share/home/202220143416/anomaly_data/fraud_detection/', help='root path of the data file') # or './dataset
-# r'/share/home/202220143416/anomaly_data/fraud_detection/'
+parser.add_argument('--root_path', type=str, default=r'./datasets/fraud_detection/', help='root path of the data file') 
 
 # model define
 parser.add_argument('--enc_in', type=int, default=7, help='encoder input size (NO NEED FOR THIS, AUTO-OBTAIN THE ENC_IN)')
