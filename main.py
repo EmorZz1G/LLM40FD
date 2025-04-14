@@ -41,7 +41,7 @@ parser.add_argument('--strides', type=eval, default=[1,3,5,11], help='strides of
 parser.add_argument('--llm_layers', type=int, default=3)
 parser.add_argument('--llm_model', type=str, default='GPT2', choices=['GPT2', 'LLAMA', 'None'], help='LLM model') # LLAMA, GPT2;
 parser.add_argument('--llm_dim', type=int, default=768,choices=[4096,768], help='LLM model dimension')# LLama7b:4096; GPT2-small:768;
-parser.add_argument('--device', type=str, default='cpu', help='cuda or cpu')
+parser.add_argument('--device', type=str, default='cuda', help='cuda or cpu')
 
 # optimization
 parser.add_argument('--num_workers', type=int, default=10, help='data loader num workers')

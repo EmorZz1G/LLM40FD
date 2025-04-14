@@ -80,5 +80,5 @@ This document provides a detailed explanation of the command-line arguments used
 | `--batch_size`, `-bs`    | int   | 64      | N/A                       | Batch size of the training input data.           |
 | `--learning_rate`, `-lr` | float | 0.0001  | N/A                       | Learning rate of the optimizer.                  |
 | `--loss`                   | str   | 'OC_CE' | N/A                       | Loss function to use for training.               |
-| `--pos_r`                  | float | 0.8     | N/A                       | Positive ratio.                                  |
-| `--neg_r`                  | float | 2       | N/A                       | Negative ratio.                                  |
+| `--pos_r`                  | float | 0.8     | N/A                       | Positive sampling ratio.                                  |
+| `--neg_r`                  | float | 2       | N/A                       | Negative sampling ratio.                                  |
