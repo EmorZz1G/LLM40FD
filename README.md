@@ -30,7 +30,18 @@ TODO.
 
 # Citation
 
-We will supplement it soon.
+```biblatex
+@ARTICLE{zhijie_LLM40FD,
+  author={Yang, Kaixiang and Zhong, Zhijie and Sun, Song and Yu, Zhiwen and Chen, C. L. Philip and Zhang, Tong},
+  journal={IEEE Transactions on Computational Social Systems}, 
+  title={LLM40FD: Unlocking the Potential of LLM for Anonymous Zero-Shot Fraud Detection}, 
+  year={2025},
+  volume={12},
+  number={6},
+  pages={4606-4619},
+  keywords={Fraud;Data models;Training;Feature extraction;Zero shot learning;Training data;Legged locomotion;Adaptation models;Time series analysis;Sun;Data augmentation;fraud detection;large language model (LLM);zero-shot},
+  doi={10.1109/TCSS.2025.3563954}}
+```
 
 
 # TODO List
@@ -56,7 +67,7 @@ This document provides a detailed explanation of the command-line arguments used
 | --------------- | ---- | -------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------- |
 | `--dataset1`  | str  | 'shu'                                                                                                          | ['20k', 'credit', 'jop', 'shu'] | Type of the first dataset.                                                                |
 | `--dataset2`  | str  | "20k,credit,jop,shu"                                                                                           | N/A                             | Type of the second dataset. The string should be a comma-separated list of dataset names. |
-| `--root_path` | str  | r'/share/home/202220143416/anomaly_data/fraud_detection/'<br />**tip! replace it to /your/dataset/path** | N/A                             | Root path of the data files.                                                              |
+| `--root_path` | str  | r'/home/xxx/anomaly_data/fraud_detection/'<br />**tip! replace it to /your/dataset/path** | N/A                             | Root path of the data files.                                                              |
 
 #### Model Definition
 
